@@ -1,0 +1,23 @@
+# Operating system
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Generated documentation
+dist/
+build/
+output/
+*.pdf
+
+# Temporary files
+*.tmp
+*.bak
+~$*
+
+# Logs
+*.log
