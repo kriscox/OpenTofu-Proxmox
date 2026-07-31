@@ -2,33 +2,36 @@
 
 ## Purpose
 
-Describe the purpose of this repository.
+This repository documents the design, implementation and operation of a production-oriented OpenTofu platform on Proxmox.
+
+The project serves both as a practical learning journey and as a reusable architectural reference for future infrastructure projects.
 
 ## Scope
 
-This repository contains the documentation for:
+This repository contains:
 
-- Topic or service
-- Architecture and design
-- Relevant decisions
+- Architecture documentation
+- Technology decisions
+- Infrastructure design
+- Architecture Decision Records (ADRs)
+- Technical documentation
 - Supporting diagrams and assets
 
 ## Structure
 
-- [`docs/`](docs/) — source documentation
-- [`infra/`](infra/) — automation for validating, converting, synchronizing and publishing documentation
+...
 
 ## Documentation
 
-Start with the [documentation overview](docs/README.md).
+...
 
 ## Ownership
 
-| Role                  | Owner         |
-| --------------------- | ------------- |
-| Document owner        | To be defined |
-| Technical owner       | To be defined |
-| Repository maintainer | To be defined |
+| Role                  | Owner    |
+| --------------------- | -------- |
+| Document owner        | Kris Cox |
+| Technical owner       | Kris Cox |
+| Repository maintainer | Kris Cox |
 
 ## Status
 
