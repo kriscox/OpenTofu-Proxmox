@@ -1,38 +1,45 @@
-# OpenTofu - Proxmox
+# OpenTofu Infrastructure Platform
 
 ## Purpose
 
-This repository documents the design, implementation and operation of a production-oriented OpenTofu platform on Proxmox.
+This repository contains the architecture, Infrastructure as Code, and technical documentation for a Kubernetes platform managed with OpenTofu.
 
-The project serves both as a practical learning journey and as a reusable architectural reference for future infrastructure projects.
+The platform is designed to support multiple infrastructure providers. Proxmox is used for local development and test environments, while production workloads are intended to run on a dedicated Kubernetes platform.
 
 ## Scope
 
 This repository contains:
 
-- Architecture documentation
-- Technology decisions
-- Infrastructure design
-- Architecture Decision Records (ADRs)
-- Technical documentation
-- Supporting diagrams and assets
+* Platform architecture
+* Infrastructure as Code (OpenTofu)
+* Architecture Decision Records (ADRs)
+* Operational documentation
+* Reference configurations
+* Supporting diagrams
 
-## Structure
+## Repository Structure
 
-...
+```text
+docs/    Architecture and technical documentation
+infra/   Infrastructure as Code
+```
 
-## Documentation
+The repository structure will evolve as the platform matures.
 
-...
+## Getting Started
+
+Begin with:
+
+* `docs/overview.md`
 
 ## Ownership
 
 | Role                  | Owner    |
 | --------------------- | -------- |
-| Document owner        | Kris Cox |
-| Technical owner       | Kris Cox |
-| Repository maintainer | Kris Cox |
+| Document Owner        | Kris Cox |
+| Technical Owner       | Kris Cox |
+| Repository Maintainer | Kris Cox |
 
 ## Status
 
-Draft
+**Current Phase:** Repository Foundation
