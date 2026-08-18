@@ -82,6 +82,9 @@ This was rejected because TST, UAT and PRD require independent lifecycle, operat
 * Cross-scope dependencies cannot rely on a single OpenTofu dependency graph.
 * Deployment order between dependent scopes must be managed explicitly.
 * State management and operational governance become more distributed.
+* Temporary unavailability of the state backend can prevent OpenTofu deployment
+  and recovery operations even though already deployed infrastructure may
+  continue to operate.
 
 ## Risks
 
@@ -89,6 +92,11 @@ This was rejected because TST, UAT and PRD require independent lifecycle, operat
 * Cross-scope dependencies may become difficult to understand if they are not explicitly documented.
 * Tight data dependencies between scopes could create hidden coupling despite separate state boundaries.
 * Future implementation constraints may reveal that some deployment-scope boundaries need to be reconsidered.
+* A simultaneous failure of managed infrastructure and the state backend may
+  require manual verification or recovery actions before OpenTofu-managed
+  recovery can resume.
+
+> This double-failure scenario is accepted as an exceptional operational case and does not justify a runtime-level high-availability requirement for the state backend.
 
 ## Follow-up actions
 

@@ -1,0 +1,4 @@
+id: ds-<name>
+
+depends_on:
+  - ds-<name>
