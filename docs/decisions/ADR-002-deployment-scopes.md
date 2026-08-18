@@ -10,7 +10,7 @@ ADR-001 defines deployment units as logically coherent architectural capabilitie
 
 A deployment unit is not necessarily equivalent to the complete functional or platform capability that must be provisioned and operated.
 
-A functional or platform capability may require multiple deployment units to work together. For example, a log aggregation capability may combine several independently defined deployment units while still being understood and deployed as one coherent functional block.
+A functional or platform capability may require multiple deployment units to work together while still being understood and deployed as one coherent functional block.
 
 OpenTofu therefore requires an additional composition concept above deployment units.
 
