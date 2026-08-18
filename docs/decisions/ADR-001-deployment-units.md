@@ -1,7 +1,7 @@
 # ADR-001: Define Deployment Units as Architecture Boundaries
 
-* Status: Proposed
-* Date: 2026-08-06
+* Status: Accepted
+* Date: 2026-08-17
 * Owners: Technical Architect
 
 ## Context
