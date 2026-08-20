@@ -1,10 +1,10 @@
 # Assets
 
-This directory contains supporting files used by the documentation, such as:
+This directory contains reusable documentation assets and supporting reference files, including:
 
-- Images
-- Logos
-- Screenshots
+- Templates
+- Cost estimates and supporting analyses
+- Images and diagrams
 - Static reference files
 
-Do not store generated PDF or HTML output here.
+Generated output should not be stored here.
