@@ -29,7 +29,7 @@ For example:
 
 The deployment scope therefore represents the primary OpenTofu management boundary, while the environment represents an independent instantiation of that boundary.
 
-TST, UAT and PRD must never share the same OpenTofu state.
+Different environments must never share the same OpenTofu state.
 
 Resources belonging to different deployment scopes are not managed within the same state unless the deployment-scope boundaries themselves are reconsidered.
 

@@ -167,7 +167,7 @@ Ordering and dependency information must therefore remain explicit metadata rath
 ## Follow-up actions
 
 * [X] Create deployment-scope documentation and metadata templates under `docs/assets/`.
-* [ ] Define the concrete OpenTofu implementation structure inside deployment scopes.
+* [X] Define the concrete OpenTofu implementation structure inside deployment scopes.
 * [ ] Define deployment-unit repository structure.
 * [ ] Define OpenTofu module repository structure.
 * [ ] Define the module versioning mechanism.
