@@ -98,7 +98,7 @@ Cross-provider abstractions may be introduced when a genuinely stable and useful
 
 ## Follow-up actions
 
-* [ ] Define the repository structure independently from this decision.
+* [X] Define the repository structure independently from this decision.
 * [ ] Define the module versioning mechanism.
 * [ ] Define module coding and interface conventions.
 * [ ] Validate the module principles during the first OpenTofu implementation.

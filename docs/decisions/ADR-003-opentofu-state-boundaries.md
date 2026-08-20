@@ -100,8 +100,8 @@ This was rejected because TST, UAT and PRD require independent lifecycle, operat
 
 ## Follow-up actions
 
-* [ ] Define how deployment-scope dependencies are represented as machine-readable metadata.
+* [X] Define how deployment-scope dependencies are represented as machine-readable metadata.
 * [ ] Define how data is exchanged between independently managed deployment scopes.
 * [ ] Select and design the OpenTofu state backend.
-* [ ] Define state access control, locking and recovery requirements.
+* [X] Define state access control, locking and recovery requirements.
 * [ ] Integrate deployment-scope dependencies into the later CI/CD orchestration design.

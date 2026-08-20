@@ -1,4 +1,4 @@
-i# ADR-006: Define Repository Structure Strategy
+# ADR-006: Define Repository Structure Strategy
 
 * Status: Proposed
 * Date: 2026-08-18
@@ -107,7 +107,7 @@ Adding another environment must not require redesigning or duplicating the deplo
 
 ### Templates
 
-Reusable repository templates are maintained under `assets/`.
+Reusable repository templates are maintained under `docs/assets/`.
 
 Templates provide a consistent starting structure for new deployment units, deployment scopes and OpenTofu modules.
 
@@ -166,7 +166,7 @@ Ordering and dependency information must therefore remain explicit metadata rath
 
 ## Follow-up actions
 
-* [ ] Create deployment-scope documentation and metadata templates under `assets/`.
+* [X] Create deployment-scope documentation and metadata templates under `docs/assets/`.
 * [ ] Define the concrete OpenTofu implementation structure inside deployment scopes.
 * [ ] Define deployment-unit repository structure.
 * [ ] Define OpenTofu module repository structure.

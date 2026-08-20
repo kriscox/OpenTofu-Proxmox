@@ -87,12 +87,12 @@ This option was rejected because ownership alone does not provide sufficient lif
 
 ## Verification
 
-* [ ] Initial deployment units are identified.
-* [ ] Each deployment unit has one primary responsibility and an accountable owner.
-* [ ] Logical, organisational, operational and technical boundaries are documented.
-* [ ] Security capabilities and dependencies are explicit.
+* [X] Initial deployment units are identified.
+* [X] Each deployment unit has one primary responsibility and an accountable owner.
+* [X] Logical, organisational, operational and technical boundaries are documented.
+* [X] Security capabilities and dependencies are explicit.
 * [ ] Reusable capabilities have stable interfaces and configurable inputs.
-* [ ] Boundaries are reviewed for unnecessary coupling and coordination overhead.
+* [X] Boundaries are reviewed for unnecessary coupling and coordination overhead.
 
 ## References
 

@@ -93,5 +93,5 @@ These risks are accepted because state is not required for the normal runtime of
 
 * [ ] Validate Azure Blob Storage against all state backend requirements.
 * [ ] Define the Azure storage configuration required for state.
-* [ ] Define the required production and non-production access separation.
+* [X] Define the required production and non-production access separation.
 * [ ] Validate state migration to an alternative backend during the implementation or recovery testing phase.

@@ -104,8 +104,8 @@ Scope-specific elements should therefore remain limited to configuration or infr
 ## Follow-up actions
 
 * [ ] Validate the deployment-scope concept with the other architects.
-* [ ] Define the detailed OpenTofu state strategy.
-* [ ] Determine the relationship between deployment scopes and OpenTofu modules.
+* [X] Define the detailed OpenTofu state strategy.
+* [X] Determine the relationship between deployment scopes and OpenTofu modules.
 * [ ] Define the environment configuration strategy.
-* [ ] Define the repository structure only after the architectural model is sufficiently stable.
+* [X] Define the repository structure only after the architectural model is sufficiently stable.
 * [ ] Define cross-scope dependency and recovery-wave orchestration during the CI/CD phase.
