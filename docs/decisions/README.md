@@ -27,3 +27,10 @@ ADR-002-another-decision.md
 | [ADR-004](ADR-004-opentofu-state-backend-strategy.md) | Select OpenTofu State Backend Strategy      | Proposed |
 | [ADR-005](ADR-005-opentofu-module-structure.md)       | OpenTofu Module Principles                  | Proposed |
 | [ADR-006](ADR006-repository-structure.md)             | Repository Structure Strategy               | Proposed |
+| [ADR-007](ADR-007-deployment-delivery-separation.md)  | Deployment delivery seprations              | Proposed |
+
+
+Brief-03-Define-Platform-Deployment-Scopes.md
+Brief-04-Build-Kubernetes-Platform.md
+Brief-05-Build-Observability-Scope.md
+Brief-06-Validate-Platform-End-to-End.md
