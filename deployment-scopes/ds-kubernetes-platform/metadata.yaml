@@ -2,4 +2,3 @@ id: ds-kubernetes-platform
 
 depends_on:
   - ds-proxmox-foundation
-  - ds-landing-zone
