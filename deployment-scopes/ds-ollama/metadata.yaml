@@ -1,0 +1,4 @@
+id: ds-ollama
+
+depends_on:
+  - ds-proxmox-foundation
