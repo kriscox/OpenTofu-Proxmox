@@ -1,6 +1,6 @@
 # ADR-008: Tool responsibilities for infrastructure and configuration management
 
-- Status: Proposed
+- Status: Accepted
 - Date: 2026-09-08
 - Owners: To be defined
 
