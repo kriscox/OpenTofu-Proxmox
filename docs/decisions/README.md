@@ -28,7 +28,7 @@ ADR-002-another-decision.md
 | [ADR-005](ADR-005-opentofu-module-structure.md)       | OpenTofu Module Principles                                  | Proposed |
 | [ADR-006](ADR006-repository-structure.md)             | Repository Structure Strategy                               | Proposed |
 | [ADR-007](ADR-007-deployment-delivery-separation.md)  | Deployment delivery seprations                              | Proposed |
-| [ADR-008](ADR-008-tool-responsibilities.md)           | Tool responsibilities for infrastructure and configuration | Proposed |
+| [ADR-008](ADR-008-tool-responsibilities.md)           | Tool responsibilities for infrastructure and configuration | Accepted |
 
 
 Brief-03-Define-Platform-Deployment-Scopes.md
